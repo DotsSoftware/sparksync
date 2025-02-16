@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SparkSync - Find Your Perfect Match</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #FF69B4, #800080);
+        }
+        .fade-in {
+            animation: fadeIn 1s ease-in;
+        }
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+        .hover-scale {
+            transition: transform 0.3s ease;
+        }
+        .hover-scale:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body class="bg-black text-white">
+    <!-- Hero Section -->
+    <header class="gradient-bg py-20 px-4">
+        <div class="container mx-auto max-w-6xl">
+            <nav class="flex justify-between items-center mb-16">
+                <h1 class="text-4xl font-bold">SparkSync</h1>
+                <div class="space-x-6">
+                    <a href="#features" class="hover:text-pink-200">Features</a>
+                    <a href="#download" class="hover:text-pink-200">Download</a>
+                </div>
+            </nav>
+            
+            <div class="flex flex-col md:flex-row items-center justify-between">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <h2 class="text-5xl font-bold mb-6 fade-in">Find Your Perfect Match</h2>
+                    <p class="text-xl mb-8 fade-in">Discover meaningful connections with SparkSync. Our intelligent matching algorithm brings compatible people together.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="bg-white text-black px-8 py-3 rounded-full hover-scale">
+                            Get Started
+                        </a>
+                    </div>
+                </div>
+                <div class="md:w-1/2">
+                    <img src="/api/placeholder/300/600" alt="App Screenshot" class="rounded-3xl shadow-2xl fade-in">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20 px-4">
+        <div class="container mx-auto max-w-6xl">
+            <h2 class="text-4xl font-bold mb-16 text-center">Why Choose SparkSync?</h2>
+            <div class="grid md:grid-cols-3 gap-10">
+                <div class="text-center p-6 hover-scale">
+                    <img src="/api/placeholder/80/80" alt="Smart Matching" class="mx-auto mb-4">
+                    <h3 class="text-2xl font-bold mb-4">Smart Matching</h3>
+                    <p>Our AI-powered algorithm learns your preferences to find the most compatible matches.</p>
+                </div>
+                <div class="text-center p-6 hover-scale">
+                    <img src="/api/placeholder/80/80" alt="Safe & Secure" class="mx-auto mb-4">
+                    <h3 class="text-2xl font-bold mb-4">Safe & Secure</h3>
+                    <p>Advanced verification and privacy features to keep your dating experience secure.</p>
+                </div>
+                <div class="text-center p-6 hover-scale">
+                    <img src="/api/placeholder/80/80" alt="Real Connections" class="mx-auto mb-4">
+                    <h3 class="text-2xl font-bold mb-4">Real Connections</h3>
+                    <p>Focus on meaningful relationships with people who share your interests.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- App Screenshots -->
+    <section class="py-20 px-4 gradient-bg">
+        <div class="container mx-auto max-w-6xl">
+            <h2 class="text-4xl font-bold mb-16 text-center">See SparkSync in Action</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <img src="/api/placeholder/300/600" alt="App Interface 1" class="rounded-3xl shadow-lg hover-scale">
+                <img src="/api/placeholder/300/600" alt="App Interface 2" class="rounded-3xl shadow-lg hover-scale">
+                <img src="/api/placeholder/300/600" alt="App Interface 3" class="rounded-3xl shadow-lg hover-scale">
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="py-20 px-4">
+        <div class="container mx-auto max-w-6xl text-center">
+            <h2 class="text-4xl font-bold mb-8">Download SparkSync Today</h2>
+            <p class="text-xl mb-12">Available on iOS and Android</p>
+            <div class="flex justify-center space-x-6">
+                <a href="#" class="hover-scale">
+                    <img src="/api/placeholder/200/60" alt="Download on App Store" class="rounded-lg">
+                </a>
+                <a href="#" class="hover-scale">
+                    <img src="/api/placeholder/200/60" alt="Get it on Google Play" class="rounded-lg">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-10 px-4 border-t border-gray-800">
+        <div class="container mx-auto max-w-6xl">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <p>&copy; 2025 SparkSync. All rights reserved.</p>
+                <div class="flex space-x-6 mt-4 md:mt-0">
+                    <a href="#" class="hover:text-pink-400">Privacy Policy</a>
+                    <a href="#" class="hover:text-pink-400">Terms of Service</a>
+                    <a href="#" class="hover:text-pink-400">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
